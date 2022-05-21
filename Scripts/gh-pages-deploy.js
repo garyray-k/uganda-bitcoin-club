@@ -18,7 +18,7 @@ const fs = require("fs");
     // });
     await execa("git", ["--work-tree", folderName, "add", "--all"]);
     await execa("git", ["--work-tree", folderName, "commit", "-m", "gh-pages"]);
-    await execa("echo", ["ugandabitcoin.club", ">", "CNAME"]);
+    // await execa("echo", ["ugandabitcoin.club", ">", "CNAME"]);
     console.log("Pushing to gh-pages...");
     await execa("git", ["push", "origin", "HEAD:gh-pages", "--force"]);
     await execa("rm", ["-r", folderName]);

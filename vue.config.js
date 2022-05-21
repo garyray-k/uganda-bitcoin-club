@@ -2,7 +2,7 @@
 const path = require("path");
 
 module.exports = {
-  publicPath: "/",
+  publicPath: "/uganda-bitcoin-club",
   chainWebpack: (config) => {
     config.module
       .rule('images')
