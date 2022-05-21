@@ -1,30 +1,27 @@
 <template>
-  <div class="about">
-    <h1>About</h1>
+  <div class="blog">
+    <h1>Blog</h1>
   </div>
 </template>
 <script lang="ts">
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: "About",
+  name: "Blog",
 });
 </script>
 <style scoped>
 h3 {
   margin: 40px 0 0;
 }
-
 ul {
   list-style-type: none;
   padding: 0;
 }
-
 li {
   display: inline-block;
   margin: 0 10px;
 }
-
 a {
   color: #42b983;
 }
