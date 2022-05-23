@@ -10,32 +10,50 @@ const routes: Array<RouteRecordRaw> = [
     path: "/",
     name: "Home",
     component: Home,
+    meta: {
+      title: "Uganda Bitcoin Meetups",
+    },
   },
   {
     path: "/about",
     name: "About",
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
+    meta: {
+      title: "Uganda Bitcoin Meetups | About",
+    },
   },
   {
     path: "/photos",
     name: "Photos",
     component: Photos,
+    meta: {
+      title: "Uganda Bitcoin Meetups | Photos",
+    },
   },
   {
     path: "/resources",
     name: "Resources",
     component: Resources,
+    meta: {
+      title: "Uganda Bitcoin Meetups | Resources",
+    },
   },
   {
     path: "/donate",
     name: "Donate",
     component: Donate,
+    meta: {
+      title: "Uganda Bitcoin Meetups | Donate",
+    },
   },
   {
     path: "/blog",
     name: "Blog",
     component: Blog,
+    meta: {
+      title: "Uganda Bitcoin Meetups | Blog",
+    },
   },
 ];
 
