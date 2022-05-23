@@ -33,4 +33,9 @@ li {
 a {
   color: #42b983;
 }
+.center-fit {
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
+}
 </style>
