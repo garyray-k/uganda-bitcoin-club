@@ -2,7 +2,7 @@
   <div class="donate">
     <h1>Donate</h1>
     <div>
-      <h4>LN URL</h4>
+      <h4>Lightning Network URL</h4>
       <img
         alt="LNURL QR Code"
         src="../assets/LNURL-uganda-meetup.png"
