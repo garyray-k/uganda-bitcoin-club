@@ -62,4 +62,9 @@ const router = createRouter({
   routes,
 });
 
+const DEFAULT_TITLE = "Uganda Bitcoin Meetups";
+router.beforeEach((to) => {
+  document.title = (to.meta.title as string) || DEFAULT_TITLE;
+});
+
 export default router;
