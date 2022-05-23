@@ -1,6 +1,7 @@
 <template>
   <div class="blog">
     <h1>Blog</h1>
+    <h3>Coming soon...</h3>
   </div>
 </template>
 <script lang="ts">

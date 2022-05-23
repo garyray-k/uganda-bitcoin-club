@@ -9,16 +9,16 @@ const fs = require("fs");
     await execa("npm", ["run", "build"]);
     // Understand if it's dist or build folder
     const folderName = fs.existsSync("dist") ? "dist" : "build";
-    // const website = 'ugandabitcoin.club';
-    // fs.writeFile(`${folderName}/CNAME`, website, err => {
-    //   if (err) {
-    //     console.error(err);
-    //   }
-    //   console.log(`CNAME file created: ${website}`);
-    // });
+    const website = 'ugandabitcoinmeetups.com';
+    fs.writeFile(`${folderName}/CNAME`, website, err => {
+      if (err) {
+        console.error(err);
+      }
+      console.log(`CNAME file created: ${website}`);
+    });
     await execa("git", ["--work-tree", folderName, "add", "--all"]);
     await execa("git", ["--work-tree", folderName, "commit", "-m", "gh-pages"]);
-    // await execa("echo", ["ugandabitcoin.club", ">", "CNAME"]);
+    await execa("echo", ["ugandabitcoinmeetups.com", ">", "CNAME"]);
     console.log("Pushing to gh-pages...");
     await execa("git", ["push", "origin", "HEAD:gh-pages", "--force"]);
     await execa("rm", ["-r", folderName]);
