@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <h1>Uganda Bitcoin Club</h1>
-    <p>Educating an collaborating on Bitcoin.</p>
+    <h1>Uganda Bitcoin Meetup</h1>
+    <p>Educating, connecting and collaborating on Bitcoin.</p>
     <img alt="Bitcoin symbol" src="../assets/logo.png" class="center-fit" />
   </div>
 </template>
