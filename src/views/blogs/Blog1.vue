@@ -1,5 +1,8 @@
 <template>
   <div class="blog1">
+    <h5 class="back">
+      <router-link to="/blog">Back</router-link>
+    </h5>
     <h1>Money and Bitcoin, Keys and Coins</h1>
     <h3>by Jeremy Garcia - May 11, 2022</h3>
     <h5>
@@ -115,6 +118,15 @@ export default defineComponent({
   align-content: center;
   max-width: 680px;
   margin: auto;
+  background-color: #fafafa;
+}
+
+.back {
+  text-align: left;
+  position: fixed;
+  top: 0;
+  width: fit-content;
+  z-index: 100;
   background-color: #fafafa;
 }
 
