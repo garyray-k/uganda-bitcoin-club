@@ -1,8 +1,11 @@
 <template>
   <div class="blog">
-    <h1>Blog</h1>
+    <h1>Blogs</h1>
     <h3>
       <router-link to="/blog/1">Money and Bitcoin, Keys and Coins</router-link>
+    </h3>
+    <h3>
+      <router-link to="/blog/2">Bitcoin: A tool for Social Justice</router-link>
     </h3>
   </div>
 </template>

@@ -5,6 +5,7 @@ import Resources from "../views/Resources.vue";
 import Donate from "../views/Donate.vue";
 import Blog from "../views/Blog.vue";
 import Blog1 from "@/views/blogs/Blog1.vue";
+import Blog2 from "@/views/blogs/Blog2.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -62,6 +63,14 @@ const routes: Array<RouteRecordRaw> = [
     component: Blog1,
     meta: {
       title: "Uganda Bitcoin Meetups | Money and Bitcoin, Keys and Coins",
+    },
+  },
+  {
+    path: "/blog/2",
+    name: "Blog2",
+    component: Blog2,
+    meta: {
+      title: "Bitcoin: A Tool for Social Justice",
     },
   },
 ];
