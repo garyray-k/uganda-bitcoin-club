@@ -6,6 +6,7 @@ import Donate from "../views/Donate.vue";
 import Blog from "../views/Blog.vue";
 import Blog1 from "@/views/blogs/Blog1.vue";
 import Blog2 from "@/views/blogs/Blog2.vue";
+import Blog3 from "@/views/blogs/Blog3.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -71,6 +72,14 @@ const routes: Array<RouteRecordRaw> = [
     component: Blog2,
     meta: {
       title: "Bitcoin: A Tool for Social Justice",
+    },
+  },
+  {
+    path: "/blog/3",
+    name: "Blog3",
+    component: Blog3,
+    meta: {
+      title: "Bitcoin – Gold version 2.0",
     },
   },
 ];

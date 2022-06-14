@@ -7,6 +7,9 @@
     <h3>
       <router-link to="/blog/2">Bitcoin: A tool for Social Justice</router-link>
     </h3>
+    <h3>
+      <router-link to="/blog/3">Bitcoin – Gold version 2.0</router-link>
+    </h3>
   </div>
 </template>
 <script lang="ts">
