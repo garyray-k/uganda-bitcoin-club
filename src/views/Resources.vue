@@ -8,10 +8,28 @@
       -- video
     </p>
     <p>
-      <a href="https://link.medium.com/FLlSqb5jxqb"
+      <a href="https://link.medium.com/FLlSqb5jxqb" target="_blank"
         >Explain Bitcoin Like I’m Five</a
       >
       -- article
+    </p>
+    <p>
+      <a href="https://www.lopp.net/bitcoin-information.html" target="_blank"
+        >Bitcoin Information & Resources</a
+      >
+      -- website
+    </p>
+    <p>
+      <a href="https://www.youtube.com/watch?v=2pDlaOGA2ac" target="_blank"
+        >Bitcoin: Everything there is, divided by 21 million</a
+      >
+      -- video
+    </p>
+    <p>
+      <a href="https://www.youtube.com/watch?v=jzwVNHJxgHE" target="_blank"
+        >Documentary: THE GREAT RESET AND THE RISE OF BITCOIN</a
+      >
+      -- video
     </p>
   </div>
 </template>
