@@ -222,12 +222,19 @@
     <p>That Bitcoin is, is a wonder.</p>
     <p>Long live.</p>
   </div>
+  <div class="blog1">
+    <DisqusSection />
+  </div>
 </template>
 <script lang="ts">
 import { defineComponent } from "vue";
+import DisqusSection from "../../components/DisqusSection.vue";
 
 export default defineComponent({
   name: "Blog3",
+  components: {
+    DisqusSection,
+  },
 });
 </script>
 <style scoped>

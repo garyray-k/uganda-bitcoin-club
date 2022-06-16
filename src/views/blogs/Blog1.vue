@@ -7,9 +7,8 @@
     <h3>by Jeremy Garcia - May 11, 2022</h3>
     <h5>
       <a href="https://satoshisjournal.com/money-and-bitcoin-keys-and-coins/">
-        Original Article host on Satoshi's Journal and shared with
-        permission.</a
-      >
+        Original Article host on Satoshi's Journal and shared with permission.
+      </a>
     </h5>
     <h2>What is Money?</h2>
     <p>
@@ -103,12 +102,19 @@
       will forever lose your bitcoin.
     </p>
   </div>
+  <div class="blog1">
+    <DisqusSection />
+  </div>
 </template>
 <script lang="ts">
 import { defineComponent } from "vue";
+import DisqusSection from "../../components/DisqusSection.vue";
 
 export default defineComponent({
   name: "Blog1",
+  components: {
+    DisqusSection,
+  },
 });
 </script>
 <style scoped>

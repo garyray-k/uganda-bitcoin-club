@@ -1,15 +1,30 @@
 <template>
   <div class="blog">
     <h1>Blogs</h1>
-    <h3>
-      <router-link to="/blog/1">Money and Bitcoin, Keys and Coins</router-link>
-    </h3>
-    <h3>
-      <router-link to="/blog/2">Bitcoin: A tool for Social Justice</router-link>
-    </h3>
-    <h3>
-      <router-link to="/blog/3">Bitcoin – Gold version 2.0</router-link>
-    </h3>
+    <ol>
+      <li>
+        <h3>
+          1.
+          <router-link to="/blog/1"
+            >Money and Bitcoin, Keys and Coins</router-link
+          >
+        </h3>
+      </li>
+      <li>
+        <h3>
+          2.
+          <router-link to="/blog/2"
+            >Bitcoin: A tool for Social Justice</router-link
+          >
+        </h3>
+      </li>
+      <li>
+        <h3>
+          3.
+          <router-link to="/blog/3">Bitcoin – Gold version 2.0</router-link>
+        </h3>
+      </li>
+    </ol>
   </div>
 </template>
 <script lang="ts">
@@ -30,7 +45,6 @@ ul {
 }
 
 li {
-  display: inline-block;
   margin: 0 10px;
 }
 

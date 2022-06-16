@@ -7,9 +7,8 @@
     <h3>by Dele Joseph - May 27, 2022</h3>
     <h5>
       <a href="https://satoshisjournal.com/bitcoin-a-tool-for-social-justice/">
-        Original Article host on Satoshi's Journal and shared with
-        permission.</a
-      >
+        Original Article host on Satoshi's Journal and shared with permission.
+      </a>
     </h5>
     <p>
       Since the inception of the Bitcoin whitepaper by Satoshi Nakamoto, Bitcoin
@@ -72,12 +71,19 @@
       spread like wildfire to serve its purpose.
     </p>
   </div>
+  <div class="blog1">
+    <DisqusSection />
+  </div>
 </template>
 <script lang="ts">
 import { defineComponent } from "vue";
+import DisqusSection from "../../components/DisqusSection.vue";
 
 export default defineComponent({
   name: "Blog2",
+  components: {
+    DisqusSection,
+  },
 });
 </script>
 <style scoped>
