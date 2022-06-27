@@ -30,6 +30,15 @@
           <router-link to="/blog/4">The Proof-of-Work train</router-link>
         </h3>
       </li>
+      <li>
+        <h3>
+          5.
+          <router-link to="/blog/5"
+            >Bitcoin, Climate Change and The Unstoppable Rise of Consumerist
+            Culture</router-link
+          >
+        </h3>
+      </li>
     </ol>
   </div>
 </template>

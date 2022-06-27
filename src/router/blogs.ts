@@ -3,6 +3,7 @@ import Blog1 from "@/views/blogs/Blog1.vue";
 import Blog2 from "@/views/blogs/Blog2.vue";
 import Blog3 from "@/views/blogs/Blog3.vue";
 import Blog4 from "@/views/blogs/Blog4.vue";
+import Blog5 from "@/views/blogs/Blog5.vue";
 
 export const blogRoutes = [
   {
@@ -43,6 +44,15 @@ export const blogRoutes = [
     component: Blog4,
     meta: {
       title: "The Proof-of-Work Train",
+    },
+  },
+  {
+    path: "/blog/5",
+    name: "Blog5",
+    component: Blog5,
+    meta: {
+      title:
+        "Bitcoin, Climate Change and The Unstoppable Rise of Consumerist Culture",
     },
   },
 ];
