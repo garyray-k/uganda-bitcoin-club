@@ -39,6 +39,14 @@
           >
         </h3>
       </li>
+      <li>
+        <h3>
+          6.
+          <router-link to="/blog/6"
+            >"Bitcoin is Responsibility-Go-Up Technology" - Svetski</router-link
+          >
+        </h3>
+      </li>
     </ol>
   </div>
 </template>

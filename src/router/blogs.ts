@@ -4,6 +4,7 @@ import Blog2 from "@/views/blogs/Blog2.vue";
 import Blog3 from "@/views/blogs/Blog3.vue";
 import Blog4 from "@/views/blogs/Blog4.vue";
 import Blog5 from "@/views/blogs/Blog5.vue";
+import Blog6 from "@/views/blogs/Blog6.vue";
 
 export const blogRoutes = [
   {
@@ -53,6 +54,14 @@ export const blogRoutes = [
     meta: {
       title:
         "Bitcoin, Climate Change and The Unstoppable Rise of Consumerist Culture",
+    },
+  },
+  {
+    path: "/blog/6",
+    name: "Blog6",
+    component: Blog6,
+    meta: {
+      title: '"Bitcoin is Responsibility-Go-Up Technology" - Svetski',
     },
   },
 ];
