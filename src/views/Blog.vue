@@ -47,6 +47,14 @@
           >
         </h3>
       </li>
+      <li>
+        <h3>
+          7.
+          <router-link to="/blog/7"
+            >Kings of Bitcoin by Maali Marvin</router-link
+          >
+        </h3>
+      </li>
     </ol>
   </div>
 </template>

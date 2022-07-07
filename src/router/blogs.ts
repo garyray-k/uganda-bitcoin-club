@@ -5,6 +5,7 @@ import Blog3 from "@/views/blogs/Blog3.vue";
 import Blog4 from "@/views/blogs/Blog4.vue";
 import Blog5 from "@/views/blogs/Blog5.vue";
 import Blog6 from "@/views/blogs/Blog6.vue";
+import Blog7 from "@/views/blogs/Blog7.vue";
 
 export const blogRoutes = [
   {
@@ -62,6 +63,14 @@ export const blogRoutes = [
     component: Blog6,
     meta: {
       title: '"Bitcoin is Responsibility-Go-Up Technology" - Svetski',
+    },
+  },
+  {
+    path: "/blog/7",
+    name: "Blog7",
+    component: Blog7,
+    meta: {
+      title: "Kings of Bitcoin by Maali Marvin",
     },
   },
 ];
