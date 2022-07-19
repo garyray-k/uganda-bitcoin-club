@@ -35,7 +35,7 @@
       <a
         href="https://unchained.com/blog/bitcoin-not-blockchain/"
         target="_blank"
-        >Bitcoin Note Blockchain</a
+        >Bitcoin Not Blockchain</a
       >
       -- article
     </p>
