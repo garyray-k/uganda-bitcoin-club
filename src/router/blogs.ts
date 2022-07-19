@@ -6,6 +6,8 @@ import Blog4 from "@/views/blogs/Blog4.vue";
 import Blog5 from "@/views/blogs/Blog5.vue";
 import Blog6 from "@/views/blogs/Blog6.vue";
 import Blog7 from "@/views/blogs/Blog7.vue";
+import Blog8 from "@/views/blogs/Blog8.vue";
+import Blog9 from "@/views/blogs/Blog9.vue";
 
 export const blogRoutes = [
   {
@@ -71,6 +73,22 @@ export const blogRoutes = [
     component: Blog7,
     meta: {
       title: "Kings of Bitcoin by Maali Marvin",
+    },
+  },
+  {
+    path: "/blog/8",
+    name: "Blog8",
+    component: Blog8,
+    meta: {
+      title: "Miniaturized Nuclear Energy by Maali Marvin",
+    },
+  },
+  {
+    path: "/blog/9",
+    name: "Blog9",
+    component: Blog9,
+    meta: {
+      title: "Pleb-onomics by Maali Marvin",
     },
   },
 ];

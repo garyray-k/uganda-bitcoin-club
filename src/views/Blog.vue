@@ -55,6 +55,20 @@
           >
         </h3>
       </li>
+      <li>
+        <h3>
+          8.
+          <router-link to="/blog/8"
+            >Miniaturized Nuclear Energy by Maali Marvin</router-link
+          >
+        </h3>
+      </li>
+      <li>
+        <h3>
+          9.
+          <router-link to="/blog/8">Pleb-onomics by Maali Marvin</router-link>
+        </h3>
+      </li>
     </ol>
   </div>
 </template>
