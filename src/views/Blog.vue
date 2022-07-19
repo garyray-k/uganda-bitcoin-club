@@ -66,7 +66,7 @@
       <li>
         <h3>
           9.
-          <router-link to="/blog/8">Pleb-onomics by Maali Marvin</router-link>
+          <router-link to="/blog/9">Pleb-onomics by Maali Marvin</router-link>
         </h3>
       </li>
     </ol>

@@ -31,6 +31,14 @@
       >
       -- video
     </p>
+    <p>
+      <a
+        href="https://unchained.com/blog/bitcoin-not-blockchain/"
+        target="_blank"
+        >Bitcoin Note Blockchain</a
+      >
+      -- article
+    </p>
   </div>
 </template>
 <script lang="ts">
