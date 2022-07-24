@@ -69,6 +69,20 @@
           <router-link to="/blog/9">Pleb-onomics by Maali Marvin</router-link>
         </h3>
       </li>
+      <li>
+        <h3>
+          10.
+          <router-link to="/blog/10"
+            >Monetary Theory on Steroids by Maali Marvin</router-link
+          >
+        </h3>
+      </li>
+      <li>
+        <h3>
+          11.
+          <router-link to="/blog/11">Bitcoin at $100k</router-link>
+        </h3>
+      </li>
     </ol>
   </div>
 </template>

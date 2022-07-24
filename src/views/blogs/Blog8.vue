@@ -250,7 +250,7 @@
     <p>
       This is Bitcoin. This is Energy economics. This is projects like ITER.
     </p>
-    <p>God bless the hustles of those aiming at really changing the world.</p>
+    <p>God bless the hustles of those aiming at really changing the world</p>
   </div>
   <div class="blog1">
     <DisqusSection />
