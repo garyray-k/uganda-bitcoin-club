@@ -1,7 +1,7 @@
 <template>
   <div class="blog">
     <h1>Blogs</h1>
-    <ol>
+    <ul>
       <li>
         <h3>
           1.
@@ -83,7 +83,7 @@
           <router-link to="/blog/11">Bitcoin at $100k</router-link>
         </h3>
       </li>
-    </ol>
+    </ul>
   </div>
 </template>
 <script lang="ts">
