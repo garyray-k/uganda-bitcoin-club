@@ -10,7 +10,7 @@
       </h3>
       <img
         alt="The Bitcoin Standard QR Code"
-        src="../assets/btcStandard.png"
+        src="../assets/BitcoinStandard.png"
         class="center-fit qr"
       />
     </div>
@@ -23,7 +23,7 @@
       </h3>
       <img
         alt="The Fiat Standard QR Code"
-        src="../assets/fiatStandard.png"
+        src="../assets/FiatStandard.png"
         class="center-fit qr"
       />
     </div>
@@ -37,6 +37,71 @@
       <img
         alt="The Bitcoin whitepaper QR Code"
         src="../assets/whitepaper.png"
+        class="center-fit qr"
+      />
+    </div>
+    <div>
+      <h3>
+        <a
+          href="https://drive.google.com/file/d/1z4rgtm7V776WN96jDKTh3nqSTdOzOL63/view?usp=sharing"
+          >The Price of Tomorrow</a
+        >
+      </h3>
+      <img
+        alt="The Price of Tomorrow QR Code"
+        src="../assets/priceOfTomorrrow.png"
+        class="center-fit qr"
+      />
+    </div>
+    <div>
+      <h3>
+        <a
+          href="https://drive.google.com/file/d/1zFlAqpieE7I3-Llz6QCH7UJV1zweVYC3/view?usp=sharing"
+          >21 Lessons</a
+        >
+      </h3>
+      <img
+        alt="21 Lessons QR Code"
+        src="../assets/21Lessons.png"
+        class="center-fit qr"
+      />
+    </div>
+    <div>
+      <h3>
+        <a
+          href="https://drive.google.com/file/d/1zE_UkHTkcnrznpjSm-TkpnsAhrYdLHQJ/view?usp=sharing"
+          >7th Property</a
+        >
+      </h3>
+      <img
+        alt="The 7th Property QR Code"
+        src="../assets/7thProperty.png"
+        class="center-fit qr"
+      />
+    </div>
+    <div>
+      <h3>
+        <a
+          href="https://drive.google.com/file/d/1zIzkBB2Jr7u0RbrqfJETXvgiIaoEvLzr/view?usp=sharing"
+          >The Blocksize War</a
+        >
+      </h3>
+      <img
+        alt="The Blocksize War QR Code"
+        src="../assets/TheBlocksizeWar.png"
+        class="center-fit qr"
+      />
+    </div>
+    <div>
+      <h3>
+        <a
+          href="https://drive.google.com/file/d/11d5yXCiuGGUhaGp_BzGw4St8DveyRZf6/view?usp=sharing"
+          >Layered Money</a
+        >
+      </h3>
+      <img
+        alt="Layered Money QR Code"
+        src="../assets/LayeredMoney.png"
         class="center-fit qr"
       />
     </div>
