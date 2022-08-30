@@ -4,6 +4,19 @@
     <div>
       <h3>
         <a
+          href="https://drive.google.com/file/d/1mBNNBq8OonE1rMEzVkjLJ_ZeFrqYN1N4/view?usp=sharing"
+          >The Simplest Bitcoin Book</a
+        >
+      </h3>
+      <img
+        alt="The Simplest Bitcoin Book QR Code"
+        src="../assets/SimplestBitcoinBook.png"
+        class="center-fit qr"
+      />
+    </div>
+    <div>
+      <h3>
+        <a
           href="https://drive.google.com/file/d/1y_DADO0d5Mfhjhckjb6QlKW9Fv7ZBBrr/view?usp=drivesdk"
           >The Bitcoin Standard</a
         >
@@ -23,7 +36,7 @@
       </h3>
       <img
         alt="The Fiat Standard QR Code"
-        src="../assets/FiatStandard.png"
+        src="../assets/fiatStandard.png"
         class="center-fit qr"
       />
     </div>
@@ -121,6 +134,11 @@ h3 {
 
 .qr {
   max-width: 50vw;
+}
+
+img {
+  max-width: 187px;
+  max-height: 180px;
 }
 
 ul {
