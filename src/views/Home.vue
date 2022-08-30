@@ -16,9 +16,6 @@
         <h2>Time and Location</h2>
         <p>Time 3pm to 6pm @ The Patio Cafe and Restaurant, Ntinda</p>
         <h2>Dates</h2>
-        <p>25th June</p>
-        <p>30th July</p>
-        <p>27th August</p>
         <p>24th September</p>
         <p>29th October</p>
         <p>26th November</p>
