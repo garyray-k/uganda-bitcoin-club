@@ -2,7 +2,11 @@
   <div class="donate">
     <h1>Donate</h1>
     <div>
-      <div>https://8333.mobi/lemec</div>
+      <div>
+        <a href="https://8333.mobi/lemec" target="_blank"
+          >https://8333.mobi/lemec</a
+        >
+      </div>
       <h4>Lightning Network URL</h4>
       <img alt="LNURL QR Code" src="../assets/jesse.png" class="center-fit" />
     </div>
