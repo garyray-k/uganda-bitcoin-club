@@ -2,6 +2,14 @@
   <div class="resources">
     <h1>Resources</h1>
     <p>
+      <a
+        href="https://bitcoinnews.com/bitcoin-to-ugandan-shilling/"
+        target="_blank"
+        >How To Convert Bitcoin and Sats To Ugandan Shillings</a
+      >
+      -- article
+    </p>
+    <p>
       <a href="https://youtu.be/ZKwqNgG-Sv4" target="_blank"
         >The Trust Machine (how & why Bitcoin works)</a
       >
