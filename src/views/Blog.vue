@@ -83,6 +83,31 @@
           <router-link to="/blog/11">Bitcoin at $100k</router-link>
         </h3>
       </li>
+      <li>
+        <h3>
+          12.
+          <router-link to="/blog/12"
+            >Bitcoin is the Key to More of Nature's Secrets</router-link
+          >
+        </h3>
+      </li>
+      <li>
+        <h3>
+          13.
+          <router-link to="/blog/13"
+            >The Untold Wonders of Deflationary Economics</router-link
+          >
+        </h3>
+      </li>
+      <li>
+        <h3>
+          14.
+          <router-link to="/blog/14"
+            >The Mathematics of Bitcoin – A Tale of Ants and Difficulty
+            Adjustment</router-link
+          >
+        </h3>
+      </li>
     </ul>
   </div>
 </template>

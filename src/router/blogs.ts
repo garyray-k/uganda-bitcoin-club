@@ -10,6 +10,9 @@ import Blog8 from "@/views/blogs/Blog8.vue";
 import Blog9 from "@/views/blogs/Blog9.vue";
 import Blog10 from "@/views/blogs/Blog10.vue";
 import Blog11 from "@/views/blogs/Blog11.vue";
+import Blog12 from "@/views/blogs/Blog12.vue";
+import Blog13 from "@/views/blogs/Blog13.vue";
+import Blog14 from "@/views/blogs/Blog14.vue";
 
 export const blogRoutes = [
   {
@@ -107,6 +110,31 @@ export const blogRoutes = [
     component: Blog11,
     meta: {
       title: "Bitcoin at $100K",
+    },
+  },
+  {
+    path: "/blog/12",
+    name: "Blog12",
+    component: Blog12,
+    meta: {
+      title: "Bitcoin is the Key to More of Nature's Secrets",
+    },
+  },
+  {
+    path: "/blog/13",
+    name: "Blog13",
+    component: Blog13,
+    meta: {
+      title: "The Untold Wonders of Deflationary Economics",
+    },
+  },
+  {
+    path: "/blog/14",
+    name: "Blog14",
+    component: Blog14,
+    meta: {
+      title:
+        "The Mathematics of Bitcoin – A Tale of Ants and Difficulty Adjustment",
     },
   },
 ];
