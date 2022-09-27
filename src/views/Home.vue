@@ -21,7 +21,7 @@
         <p>26th November</p>
         <h2>Contact</h2>
         <p>Jeph +256782539943</p>
-        <p>Jesse- +256758583797</p>
+        <p>Jesse- +256778526538</p>
       </div>
     </Transition>
   </div>
