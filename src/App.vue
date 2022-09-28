@@ -6,7 +6,8 @@
     <router-link to="/resources">Resources</router-link> |
     <router-link to="/donate">Donate</router-link> |
     <router-link to="/books">Books</router-link> |
-    <router-link to="/blog">Blogs</router-link>
+    <router-link to="/blog">Blogs</router-link> |
+    <router-link to="/memeducation"</router-link> |
   </div>
   <router-view />
 </template>
