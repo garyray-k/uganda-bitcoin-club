@@ -137,4 +137,38 @@ export const blogRoutes = [
         "The Mathematics of Bitcoin – A Tale of Ants and Difficulty Adjustment",
     },
   },
+  {
+    path: "/blog/15",
+    name: "Blog15",
+    component: Blog15,
+    meta: {
+      title: 
+      "A close up on Bitcoin's energetics by Maali Marvin".
+   },
+  },
+  {
+    path: "/blog/16",
+    name:  "Blog16",
+    component: Blog16,
+    meta: {
+      title:
+      "Bitcoin is a centralizing tour de force by Maali Marvin".
+   },
+  },
+  {
+    path: "/blog/17",
+    name: "Blog17",
+    component: Blog17,
+    meta: {
+      title:
+      "The Bitcoin Chat Bot by Maali Marvin"
+   },
+  },
+  { 
+    path: "/blog/18",
+    name: "Blog18",
+    component: Blog18,
+    meta: {
+      title:
+      " When Bitcoin suffers, the world is suffering by Maali Marvin"
 ];
