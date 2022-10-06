@@ -138,4 +138,23 @@ export const blogRoutes = [
         "The Mathematics of Bitcoin – A Tale of Ants and Difficulty Adjustment",
     },
   },
+  {
+    path: "/blog/15",
+    name: "Blog15",
+    component: Blog15,
+    meta: {
+      title:
+      "The Bitcoin Chat Bot",
+    },
+  },
+  {
+    path: "/blog/16",
+    name: "Blog16",
+    component: Blog16,
+    meta: {
+      title:
+      "A close up on Bitcoin's energetics",
 ];
+
+
+    
