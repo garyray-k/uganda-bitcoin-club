@@ -13,7 +13,8 @@ import Blog11 from "@/views/blogs/Blog11.vue";
 import Blog12 from "@/views/blogs/Blog12.vue";
 import Blog13 from "@/views/blogs/Blog13.vue";
 import Blog14 from "@/views/blogs/Blog14.vue";
-
+import Blog15 from "@/views/blogs/Blog15.vue";
+import Blog16 from "@/views/blogs/Blog16.vue";
 export const blogRoutes = [
   {
     path: "/blog",
