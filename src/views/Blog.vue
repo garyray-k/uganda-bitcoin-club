@@ -108,6 +108,20 @@
           >
         </h3>
       </li>
+      <li>
+       <h3>
+         15.
+         <router-link to="/blog/15"
+         >The Bitcoin Chat Bot</router-link
+       >
+       </h3>
+      </li>
+      <li>
+       <h3>
+         16.
+         <router-link to="/blog/16"
+         >A close up on Bitcoin's energetics</router-link
+       >
     </ul>
   </div>
 </template>
