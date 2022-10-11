@@ -48,8 +48,8 @@
       -- article
     </p>
     <p>
-     <a href="https://21lessons.com/preface" target="_blank"
-      >Audio book: 21 Lessons by Dergigi</a
+      <a href="https://21lessons.com/preface" target="_blank"
+        >Audio book: 21 Lessons by Dergigi</a
       >
       -- website
     </p>
